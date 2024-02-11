@@ -128,60 +128,7 @@ int map (int in_val, int in_min, int in_max, int out_min, int out_max) {
 }
 
 
-struct ColorRGB {
-    uint8_t m_red;
-    uint8_t m_green;
-    uint8_t m_blue;
-    
-    ColorRGB(uint8_t red, uint8_t green, uint8_t blue) : m_red(red), m_green(green), m_blue(blue) {}
-    
-};
 
-struct ColorHSV {
-    uint16_t m_hue;
-    double m_saturation;
-    double m_value;
-
-    ColorHSV(uint16_t hue, double saturation, double value) : m_hue(hue), m_saturation(saturation), m_value(value) {}
-    
-};
-
-
-ColorRGB convertRGB_2_HCV(ColorHSV hsv) {
-    ColorRGB rgb = ColorRGB(0,0,0);
-    
-    uint8_t M = (uint8_t)(255.0 * hsv.m_value);
-    uint8_t m = (uint8_t)((double)M * (1.0 - hsv.m_saturation));
-    uint8_t z = (M - m) * (1 - std::abs(hsv.m_hue % 2 - 1));
-    
-    if (hsv.m_hue >= 0 && hsv.m_hue < 60) {
-        rgb.m_red = M;
-        rgb.m_green = z + m;
-        rgb.m_blue = m;
-    } else if (hsv.m_hue >= 60 && hsv.m_hue < 120) {
-        rgb.m_red = z + m;
-        rgb.m_green = M;
-        rgb.m_blue = m;
-    } else if (hsv.m_hue >= 120 && hsv.m_hue < 180) {
-        rgb.m_red = m;
-        rgb.m_green = M;
-        rgb.m_blue = z + m;
-    } else if (hsv.m_hue >= 180 && hsv.m_hue < 240) {
-        rgb.m_red = m;
-        rgb.m_green = z + m;
-        rgb.m_blue = M;
-    } else if (hsv.m_hue >= 240 && hsv.m_hue < 300) {
-        rgb.m_red = z + m;
-        rgb.m_green = m;
-        rgb.m_blue = M;
-    } else if (hsv.m_hue >= 300 && hsv.m_hue < 360) {
-        rgb.m_red = M;
-        rgb.m_green = m;
-        rgb.m_blue = z + m;
-    }
-   
-    return rgb;
-}
 
 uint64_t GetTickCount64() {
     static mach_timebase_info_data_t timebase;
@@ -201,8 +148,7 @@ uint64_t CalculateFractalData(uint8_t* imageData,  const uint32_t width, const u
     const double displayOriginRealOffset = double(width / 2);
     const double displayOriginImaginaryOffset = double(height / 2);
 
-    long testArray[95] = {0};
-
+    
     uint64_t iterationsPerFrame = 0;
 
     for (uint32_t y = 0; y < height; ++y) {
@@ -242,16 +188,6 @@ uint64_t CalculateFractalData(uint8_t* imageData,  const uint32_t width, const u
                                         
                                         iterationsPerFrame += iterationsPerPoint;
                                         
-//                                        ColorHSV hsv = ColorHSV(0,0,0);
-//                                        if (colorRelation == 0) { hsv = ColorHSV((uint16_t)(colorRelation * 360.0), 0, 0); }
-//                                        else { hsv = ColorHSV((uint16_t)(colorRelation * 360.0), 0.8, 0.8); }
-//
-//                                        ColorRGB rgb = convertRGB_2_HCV(hsv);
-//                                        imageData[index + 0] = rgb.m_blue;
-//                                        imageData[index + 1] = rgb.m_green;
-//                                        imageData[index + 2] = rgb.m_red;
-
-
                                         int len = std::to_string(int(zoom)).length();
                                         double step = std::pow(10, -len + 2);
 
@@ -260,24 +196,6 @@ uint64_t CalculateFractalData(uint8_t* imageData,  const uint32_t width, const u
                                         imageData[index + 1] = (uint8_t)(colorRelation * greenImpact * zoom * step);
                                         imageData[index + 2] = (uint8_t)(colorRelation * redImpact * zoom * step);
 
-
-//
-                                        
-//
-//                                        int red = map(iterationsPerPoint, 0, maxIterationsCount, 0, redImpact);
-//                                        int blue = map(iterationsPerPoint, 0, maxIterationsCount, 0, blueImpact);
-//                                        int green = map(iterationsPerPoint, 0, maxIterationsCount, 0, greenImpact);
-//
-//                                        imageData[index + 0] = (uint8_t)(blue);// * zoom * step);
-//                                        imageData[index + 1] = (uint8_t)(green);// * zoom * step);
-//                                        imageData[index + 2] = (uint8_t)(red);// * zoom * step);
-                                        
-                                      //  testArray[iterationsPerPoint]++;
-
-                                        
-                                        
-                                        //       progress = (double)(index + 2) / (double)(width * height * 3);
-                                        
                                     }
 #ifdef CROSS
           }
@@ -289,16 +207,10 @@ uint64_t CalculateFractalData(uint8_t* imageData,  const uint32_t width, const u
 
 
 
-
-
-
-
-
 void GetFractalImage(const char* imageName, const char* directoryPath ,const int width, const int height, const int maxIterationsCount, double mathX, double mathY, double zoom, unsigned char redImpact, unsigned char greenImpact, unsigned char blueImpact, unsigned char isMandelbrotSet, const double juliaSetC_X, const double juliaSetC_Y) {
 
     uint64_t startOfCalculations = GetTickCount64();
 
-    //std::vector<uint8_t> imageData(3 * width * height, 0);
     uint8_t* imageData = new uint8_t[width * height * 3];
     
     uint64_t iterationsPerFrame = CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y);
@@ -315,67 +227,6 @@ void GetFractalImage(const char* imageName, const char* directoryPath ,const int
 
 }
 
-
-
-
-
-
-
-char* CalculateFractalData_forSwift(const int width, const int  height, const int maxIterationsCount, double mathX, double mathY, double zoom) {
-
-    const double SCALE = 1.0 / zoom;
-
-    const double displayOriginRealOffset = double(width / 2);
-    const double displayOriginImaginaryOffset = double(height / 2);
-
-
-    uint64_t iterationsPerFrame = 0;
-    
-    char* imageData = new char [width * height * 3];
-
-    for (uint32_t y = 0; y < height; ++y) {
-
-        for (uint32_t x = 0; x < width; ++x) {
-
-            const double mX = ((double)x - displayOriginRealOffset) * SCALE + mathX;
-            const double mY = ((double)y - displayOriginImaginaryOffset) * SCALE + mathY;
-
-            uint32_t index = (y * width + x) * 3;
-
-#ifdef CROSS
-                                        if (x == width / 2) {
-                                        imageData[index + 0] = 0;
-                                        imageData[index + 1] = 0;
-                                        imageData[index + 2] = 255;
-
-                                    } else if (y == height / 2) {
-                                        imageData[index + 0] = 0;
-                                        imageData[index + 1] = 0;
-                                        imageData[index + 2] = 255;
-
-                                    }
-
-                        else {
-#endif
-            Complex C  = Complex(mX, mY);
-
-            uint16_t iterationsPerPoint = isPointInMandelbrotSet(C, maxIterationsCount);
-
-            double d = (double) iterationsPerPoint / (double)maxIterationsCount;
-
-            iterationsPerFrame += iterationsPerPoint;
-
-            imageData[index + 0] = (uint8_t)(d * 145);
-            imageData[index + 1] = (uint8_t)(d * 255);
-            imageData[index + 2] = (uint8_t)(d * 55);
-        }
-#ifdef CROSS
-          }
-#endif
-    }
-
-    return imageData;
-}
 
 
 

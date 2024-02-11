@@ -110,10 +110,7 @@ struct ContentView: View {
                                     Text(String(describing: renderMode))
                                 }
                             }
-                            // .pickerStyle(.radioGroup)
                             
-                            
-                            //                TextField("filename", text: $vM.frameName)
                             TextField("filename", text: $name)
                             
                         }
@@ -189,11 +186,6 @@ struct ContentView: View {
                 
                 Group {
                     VStack {
-                        // Text("\(progress)")
-                        //                    Text("Display X: \(Int(vM.mouseLocation.x)) Y:  \(Int(vM.mouseLocation.y))")
-                        //                    //                    Text("Math X: \(Int(mouseLocation.x)) Y:  \(Int(mouseLocation.y))")
-                        //                    Text("Math X: \(vM.hoveredMathX) Y:  \(vM.hoveredMathY)")
-                        //
                         
                         AsyncImage(url: URL(filePath: renderedImagePath)) { image in
                             
@@ -206,9 +198,7 @@ struct ContentView: View {
                         
                         
                         .id(uuid4TrackingChanges)
-                        // .id(renderedImagePath)
                         .frame(width: Double(vM.previewWidth), height: Double(vM.previewHeight))
-                        //.padding()
                         .gesture(
                             DragGesture(minimumDistance: 0)
                                 .onChanged { value in
@@ -221,8 +211,6 @@ struct ContentView: View {
                                     
                                     vM.hoveredMathX = (vM.mouseLocation.x - Double(vM.previewWidth/2)) / vM.zoom + vM.mathX
                                     vM.hoveredMathY = (Double(vM.previewHeight) - vM.mouseLocation.y - Double(vM.previewHeight/2)) / vM.zoom + vM.mathY
-                                    
-                                    
                                     
                                 }
                             

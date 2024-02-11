@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E7238832A4AE18300E1D068 /* FractalGenerator_swiftAndcpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalGenerator_swiftAndcpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7238832A4AE18300E1D068 /* FractalGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7238862A4AE18300E1D068 /* FractalGenerator_swiftAndcppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalGenerator_swiftAndcppApp.swift; sourceTree = "<group>"; };
 		4E7238882A4AE18300E1D068 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E72388A2A4AE18500E1D068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		4E7238842A4AE18300E1D068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E7238832A4AE18300E1D068 /* FractalGenerator_swiftAndcpp.app */,
+				4E7238832A4AE18300E1D068 /* FractalGenerator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E7238822A4AE18300E1D068 /* FractalGenerator_swiftAndcpp */ = {
+		4E7238822A4AE18300E1D068 /* FractalGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E7238922A4AE18500E1D068 /* Build configuration list for PBXNativeTarget "FractalGenerator_swiftAndcpp" */;
+			buildConfigurationList = 4E7238922A4AE18500E1D068 /* Build configuration list for PBXNativeTarget "FractalGenerator" */;
 			buildPhases = (
 				4E72387F2A4AE18300E1D068 /* Sources */,
 				4E7238802A4AE18300E1D068 /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = FractalGenerator_swiftAndcpp;
+			name = FractalGenerator;
 			productName = FractalGenerator_swiftAndcpp;
-			productReference = 4E7238832A4AE18300E1D068 /* FractalGenerator_swiftAndcpp.app */;
+			productReference = 4E7238832A4AE18300E1D068 /* FractalGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E7238822A4AE18300E1D068 /* FractalGenerator_swiftAndcpp */,
+				4E7238822A4AE18300E1D068 /* FractalGenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Staryk.FractalGenerator-swiftAndcpp";
+				PRODUCT_BUNDLE_IDENTIFIER = Staryk.FractalGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Fractalgenerator_swiftAndcpp/FractalGenerator-Bridging-header.h";
@@ -342,7 +342,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Staryk.FractalGenerator-swiftAndcpp";
+				PRODUCT_BUNDLE_IDENTIFIER = Staryk.FractalGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Fractalgenerator_swiftAndcpp/FractalGenerator-Bridging-header.h";
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E7238922A4AE18500E1D068 /* Build configuration list for PBXNativeTarget "FractalGenerator_swiftAndcpp" */ = {
+		4E7238922A4AE18500E1D068 /* Build configuration list for PBXNativeTarget "FractalGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E7238932A4AE18500E1D068 /* Debug */,

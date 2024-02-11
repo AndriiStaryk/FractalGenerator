@@ -14,8 +14,8 @@
             filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "307"
-            endingLineNumber = "307"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "GetFractalImage(imageName, directoryPath, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
             landmarkType = "9">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
             landmarkType = "9">
             <Locations>
@@ -108,8 +108,8 @@
             filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
             landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
             landmarkType = "9">
             <Locations>
@@ -156,8 +156,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -219,8 +219,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -235,8 +235,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "341"
-            endingLineNumber = "341"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -251,8 +251,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -281,8 +281,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
             landmarkName = "unknown"
             landmarkType = "0">
             <Locations>
@@ -359,8 +359,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
@@ -375,8 +375,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -391,8 +391,8 @@
             filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
             landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
             landmarkType = "9">
          </BreakpointContent>
@@ -407,8 +407,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -423,8 +423,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -439,8 +439,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
             landmarkType = "9">
             <Locations>
@@ -487,8 +487,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -503,8 +503,8 @@
             filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
             landmarkType = "9">
          </BreakpointContent>
