@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C741113C-8FC7-461E-8DB5-FD2AFE40E892"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DBE6213-4026-495A-AC53-2A87887BE33F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "GetFractalImage(imageName, directoryPath, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "511F7219-E1C7-4FEC-91BA-3A22BB2361FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "511F7219-E1C7-4FEC-91BA-3A22BB2361FB - d768dc710f3987e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "511F7219-E1C7-4FEC-91BA-3A22BB2361FB - d768dc710f3987e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "511F7219-E1C7-4FEC-91BA-3A22BB2361FB - d768dc710f3987e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "511F7219-E1C7-4FEC-91BA-3A22BB2361FB - d768dc710f3987e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "756">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27F83977-0E2C-4696-93C7-B89C80F20770"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "27F83977-0E2C-4696-93C7-B89C80F20770 - d768dc710f399ac9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "27F83977-0E2C-4696-93C7-B89C80F20770 - d768dc710f399ac9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculateFractalData(unsigned char*, unsigned int, unsigned int, unsigned short, double, double, double, unsigned char, unsigned char, unsigned char, unsigned char, double, double)"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/generateFractal.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "504">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99674788-B8A7-470C-9830-4F77E6D4D94C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "99674788-B8A7-470C-9830-4F77E6D4D94C - 952b5e369d940aa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #6 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "99674788-B8A7-470C-9830-4F77E6D4D94C - b71ecae8448b10cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #6 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "99674788-B8A7-470C-9830-4F77E6D4D94C - 92c6831b63bec6a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #6 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, Swift.Optional&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.TextField&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C562825-F60A-40C0-AB66-E207C17C8C0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "501C033B-AE73-4870-B071-AED2BCD16B54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1EA2567-9895-4E6C-90AC-24CB610221BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00AF4E63-9AFB-4E13-9061-F79E4D2E729B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "370"
+            endingLineNumber = "370">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1F1DAF2-F0A3-4920-BE68-8C6040F62E3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "B1F1DAF2-F0A3-4920-BE68-8C6040F62E3F - eef86f64c2f2a751"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in closure #2 (FractalGenerator_swiftAndcpp.ViewModel) -&gt; () in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "B1F1DAF2-F0A3-4920-BE68-8C6040F62E3F - cebe311daf2a4b5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 (FractalGenerator_swiftAndcpp.ViewModel) -&gt; () in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B1F1DAF2-F0A3-4920-BE68-8C6040F62E3F - 14c387bcdd438cd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 (FractalGenerator_swiftAndcpp.ViewModel) -&gt; () in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "B1F1DAF2-F0A3-4920-BE68-8C6040F62E3F - 917fcc4b87c7c91a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (FractalGenerator_swiftAndcpp.ViewModel) -&gt; () in FractalGenerator_swiftAndcpp.ContentView.body.getter : some"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B7D66ED-D9C9-4C10-80DB-6284C8E8B99D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5301A794-A361-4228-B52A-EBE6CD0E393A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F04EC85D-2522-446A-9E53-875101A3F5E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/generateFractal.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "CalculateFractalData(imageData, width, height, maxIterationsCount, mathX, mathY, zoom, redImpact, greenImpact, blueImpact, isMandelbrotSet, juliaSetC_X, juliaSetC_Y)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FC90AC4-1292-4E41-8E54-99542AAE54B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF5ADFD5-1C57-43CE-977E-361CF8D9F5A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7424A0FE-59F0-4422-A54C-C2877C88724F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7424A0FE-59F0-4422-A54C-C2877C88724F - 52e3900a689b35bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FractalGenerator_swiftAndcpp.convertBMPtoPNG(imageName: Swift.String, directoryPath: Swift.String) -&gt; ()"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "7424A0FE-59F0-4422-A54C-C2877C88724F - 52e3900a689b35bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FractalGenerator_swiftAndcpp.convertBMPtoPNG(imageName: Swift.String, directoryPath: Swift.String) -&gt; ()"
+                  moduleName = "FractalGenerator_swiftAndcpp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreystarik/Desktop/Andrys%20Programs/Functional%20Apps/FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2A3EF57-C82D-4C5A-A89C-816A9957014B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6FEA87C-4A93-452E-A1FC-77B9640B25C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FractalGenerator_swiftAndcpp/ConvertingBMPs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "convertBMPtoPNG(imageName:directoryPath:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

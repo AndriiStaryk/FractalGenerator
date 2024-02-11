@@ -11,6 +11,12 @@
 		4E7238892A4AE18300E1D068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7238882A4AE18300E1D068 /* ContentView.swift */; };
 		4E72388B2A4AE18500E1D068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E72388A2A4AE18500E1D068 /* Assets.xcassets */; };
 		4E72388E2A4AE18500E1D068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E72388D2A4AE18500E1D068 /* Preview Assets.xcassets */; };
+		4E7238972A4AE20500E1D068 /* Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7238952A4AE20500E1D068 /* Complex.cpp */; };
+		4E72389A2A4AE2FB00E1D068 /* generateFractal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7238982A4AE2FB00E1D068 /* generateFractal.cpp */; };
+		4E7238C72A4EEB8600E1D068 /* Custom enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7238C62A4EEB8600E1D068 /* Custom enums.swift */; };
+		4E832A602A4F084E00BDC9B6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E832A5F2A4F084E00BDC9B6 /* ViewModel.swift */; };
+		4E832A622A4F192000BDC9B6 /* ConvertingBMPs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E832A612A4F192000BDC9B6 /* ConvertingBMPs.swift */; };
+		4E832A642A51A4B100BDC9B6 /* CreateGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E832A632A51A4B100BDC9B6 /* CreateGIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,15 @@
 		4E72388A2A4AE18500E1D068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E72388D2A4AE18500E1D068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E72388F2A4AE18500E1D068 /* FractalGenerator_swiftAndcpp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FractalGenerator_swiftAndcpp.entitlements; sourceTree = "<group>"; };
+		4E7238952A4AE20500E1D068 /* Complex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Complex.cpp; sourceTree = "<group>"; };
+		4E7238962A4AE20500E1D068 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		4E7238982A4AE2FB00E1D068 /* generateFractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = generateFractal.cpp; sourceTree = "<group>"; };
+		4E7238992A4AE2FB00E1D068 /* generateFractal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generateFractal.h; sourceTree = "<group>"; };
+		4E72389D2A4AEA2800E1D068 /* FractalGenerator-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalGenerator-Bridging-header.h"; sourceTree = "<group>"; };
+		4E7238C62A4EEB8600E1D068 /* Custom enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom enums.swift"; sourceTree = "<group>"; };
+		4E832A5F2A4F084E00BDC9B6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4E832A612A4F192000BDC9B6 /* ConvertingBMPs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertingBMPs.swift; sourceTree = "<group>"; };
+		4E832A632A51A4B100BDC9B6 /* CreateGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGIF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +67,17 @@
 		4E7238852A4AE18300E1D068 /* FractalGenerator_swiftAndcpp */ = {
 			isa = PBXGroup;
 			children = (
+				4E72389D2A4AEA2800E1D068 /* FractalGenerator-Bridging-header.h */,
 				4E7238862A4AE18300E1D068 /* FractalGenerator_swiftAndcppApp.swift */,
+				4E832A632A51A4B100BDC9B6 /* CreateGIF.swift */,
 				4E7238882A4AE18300E1D068 /* ContentView.swift */,
+				4E832A612A4F192000BDC9B6 /* ConvertingBMPs.swift */,
+				4E832A5F2A4F084E00BDC9B6 /* ViewModel.swift */,
+				4E7238C62A4EEB8600E1D068 /* Custom enums.swift */,
+				4E7238952A4AE20500E1D068 /* Complex.cpp */,
+				4E7238962A4AE20500E1D068 /* Complex.h */,
+				4E7238982A4AE2FB00E1D068 /* generateFractal.cpp */,
+				4E7238992A4AE2FB00E1D068 /* generateFractal.h */,
 				4E72388A2A4AE18500E1D068 /* Assets.xcassets */,
 				4E72388F2A4AE18500E1D068 /* FractalGenerator_swiftAndcpp.entitlements */,
 				4E72388C2A4AE18500E1D068 /* Preview Content */,
@@ -101,6 +125,7 @@
 				TargetAttributes = {
 					4E7238822A4AE18300E1D068 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -139,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E72389A2A4AE2FB00E1D068 /* generateFractal.cpp in Sources */,
+				4E7238972A4AE20500E1D068 /* Complex.cpp in Sources */,
+				4E7238C72A4EEB8600E1D068 /* Custom enums.swift in Sources */,
 				4E7238892A4AE18300E1D068 /* ContentView.swift in Sources */,
+				4E832A622A4F192000BDC9B6 /* ConvertingBMPs.swift in Sources */,
+				4E832A602A4F084E00BDC9B6 /* ViewModel.swift in Sources */,
 				4E7238872A4AE18300E1D068 /* FractalGenerator_swiftAndcppApp.swift in Sources */,
+				4E832A642A51A4B100BDC9B6 /* CreateGIF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -283,6 +315,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Staryk.FractalGenerator-swiftAndcpp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fractalgenerator_swiftAndcpp/FractalGenerator-Bridging-header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -292,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FractalGenerator_swiftAndcpp/FractalGenerator_swiftAndcpp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -310,6 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Staryk.FractalGenerator-swiftAndcpp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fractalgenerator_swiftAndcpp/FractalGenerator-Bridging-header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

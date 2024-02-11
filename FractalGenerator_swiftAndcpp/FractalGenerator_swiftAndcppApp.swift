@@ -12,6 +12,7 @@ struct FractalGenerator_swiftAndcppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 1250, minHeight: 550)
         }
     }
 }
