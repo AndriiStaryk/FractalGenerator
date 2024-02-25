@@ -29,10 +29,17 @@ FractalGenerator is a powerful application designed for Mac that provides users 
 <img width="1362" alt="Screenshot 2024-02-12 at 19 09 31" src="https://github.com/AndriiStaryk/FractalGenerator/assets/121547819/a570483c-4bfa-42af-8478-22720d467ee5">
 <img width="1362" alt="Screenshot 2024-02-12 at 19 10 34" src="https://github.com/AndriiStaryk/FractalGenerator/assets/121547819/477ae18b-7085-4af0-95b9-e1fcd381ec2c">
 
-## About Us
+## Technologies Used
+- Language: Swift, C++, C
+- Framework: SwiftUI
+- IDE: Xcode
 
-_FractalGenerator_ is developed by __Andrii Staryk__
+## Installation
+1. Clone the repository from [GitHub Repository Link](https://github.com/AndriiStaryk/FractalGenerator.git).
+2. Open the project in Xcode.
+3. Build and run the app on your Mac.
 
-Explore the infinite beauty of fractals with FractalGenerator and unlock a world of mathematical artistry at your fingertips!
+## Contributors
+- [Andrii Staryk](https://github.com/AndriiStaryk) - Project Lead & Developer & Designer
 
 
