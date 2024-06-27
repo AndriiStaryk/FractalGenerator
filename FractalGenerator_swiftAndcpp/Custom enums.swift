@@ -27,12 +27,12 @@ enum Resolution: CustomStringConvertible {
 }
 
 enum RenderMode: CustomStringConvertible {
-    case SingleImage, SequenceOfImages
+    case SingleImage//, SequenceOfImages
     
     var description: String {
         switch self {
         case .SingleImage: return "Single Image"
-        case .SequenceOfImages: return "Sequence of images"
+        //case .SequenceOfImages: return "Sequence of images"
         }
     }
     

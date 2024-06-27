@@ -12,7 +12,6 @@ import SwiftUI
 //mathY = 0,38266398842;
 struct ContentView: View {
     
-
     @StateObject var vM = ViewModel()
     
     @State var renderedImagePath: String = ""
@@ -178,8 +177,6 @@ struct ContentView: View {
                             Text("Render")
                         }
                         
-                        
-                        
                     }
                 }
                 .padding()
@@ -193,7 +190,7 @@ struct ContentView: View {
                                 .resizable()
                                 .scaledToFit()
                         } placeholder: {
-                                Color.black
+                            Color.black
                         }
                         
                         
@@ -255,22 +252,37 @@ struct ContentView: View {
             
         }
         .onChange(of: vM.status, perform: { newValue in
-        print("something has changed")
+            print("something has changed")
             Task {
                 await previewFrame()
             }
         })
         .padding()
-        
-        
+        .onAppear {
+            checkOutputDirectory()
+        }
         
     }
     
-    
-    
-    
+    func checkOutputDirectory() {
+            if let downloadsPath = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
+                let directoryPath = downloadsPath.appendingPathComponent("FractalGenerator_Output")
+                
+                if !FileManager.default.fileExists(atPath: directoryPath.path) {
+                    do {
+                        try FileManager.default.createDirectory(at: directoryPath, withIntermediateDirectories: true, attributes: nil)
+                    } catch {
+                        print("Failed to create directory: \(error)")
+                    }
+                }
+            } else {
+                print("Could not find the Downloads directory")
+            }
+        }
     
     func RenderFractalFrame(imageName: String, directoryPath: String, width: Int32 , height: Int32, maxIterationsCount: Int32, mathX: Double, mathY: Double, zoom: Double, redImpact: Double, greenImpact: Double, blueImpact: Double, isMandelbrotSet: UInt8, juliaSetC_X: Double, juliaSetC_Y: Double) async {
+        checkOutputDirectory()
+        
         GetFractalImage(imageName.cString(using: .utf8), directoryPath.cString(using: .utf8), width, height, maxIterationsCount, mathX, mathY, zoom, UInt8(redImpact * 255), UInt8(greenImpact * 255), UInt8(blueImpact * 255), isMandelbrotSet, juliaSetC_X, juliaSetC_Y)
 
         convertBMPtoPNG(imageName: imageName, directoryPath: directoryPath)

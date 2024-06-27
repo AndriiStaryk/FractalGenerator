@@ -38,9 +38,11 @@ class ViewModel: ObservableObject {
     
     
     let resolutions: [Resolution] = [._HD, ._FullHD, ._2K, ._4K, ._Custom, ._Preview]
-    let renderModes: [RenderMode] = [.SingleImage, .SequenceOfImages]
+    let renderModes: [RenderMode] = [.SingleImage]//, .SequenceOfImages]
     let sets: [Set] = [.MandelbrotSet, .JuliaSet]
-    let directoryPath = "/Users/andreystarik/Downloads/SwiftAppRenderedImages/"
+    //let directoryPath = "/Users/andreystarik/Downloads/SwiftAppRenderedImages/"
+    let directoryPath  = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first!.appendingPathComponent("FractalGenerator_Output").path + "/"
+     
     let previewName = "Fractal4Preview"
     let previewWidth: Int32 = 800
     let previewHeight: Int32 = 450
